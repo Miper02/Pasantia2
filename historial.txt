@@ -1,0 +1,275 @@
+    1  sudo nano /etc/apt/sources.list
+    2  sudo apt update
+    3  sudo reboot
+    4  cd Descargas/
+    5  ls
+    6  chmod +x Franz-5.9.2.AppImage 
+    7  ./Franz-5.9.2.AppImage 
+    8  ls
+    9  sudo dpkg -i Rambox-2.0.6-linux-x64.deb 
+   10  ls
+   11  chmod +x Station-x86_64.AppImage 
+   12  ./Station-x86_64.AppImage 
+   13  ls
+   14  sudo dpkg -i Ferdium-linux-6.2.0-amd64.deb 
+   15  sudo dpkg -i hamsket_0.6.5_amd64.deb 
+   16  sudo thunar
+   17  xfconf-query -c xfce4-panel -np '/panels/panel-0/position' -t 'string' -s 'p=8;x=680;y=755'
+   18  sudo apt purge ibus
+   19  sudo apt install fcitx-hangul
+   20  sudo dpkg-reconfigure keyboard-configuration
+   21  sudo find /etc/ -name 'keyboard*'
+   22  nano /etc/init.d/keyboard-setup.sh
+   23  sudo find / -name 'keyboard*.sh'
+   24  sudo reboot
+   25  xfconf-query -c xfce4-panel -np '/panels/panel-0/position' -t 'string' -s 'p=8;x0;y=5'
+   26  xfconf-query -c xfce4-panel -np '/panels/panel-0/position' -t 'string' -s 'p=0;x0;y=5'
+   27  xfconf-query -c xfce4-panel -np '/panels/panel-0/position' -t 'string' -s 'p=6;x=0;y=0'
+   28  ls
+   29  ./eset_nod32av_32bit_es.linux 
+   30  ./eset_nod32av_32bit_en.linux 
+   31  sudo ./eset_nod32av_32bit_en.linux 
+   32  ls
+   33  cd scripts/
+   34  ls
+   35  cd monitorV2/
+   36  ls
+   37  ./service-status.sh 
+   38  cd ..
+   39  ls
+   40  cd monitor
+   41  ls
+   42  ./chequeasedesbasic.sh 
+   43  sudo mkdir -p /scripts
+   44  sudo thunar  /scripts
+   45  cd ..
+   46  ls
+   47  cd monitorV2/
+   48  ls
+   49  ./service-status.sh 
+   50  cd ..
+   51  ls
+   52  cd monitoreo/
+   53  ls
+   54  ./service-status.sh 
+   55  ./service-status.sh sedes
+   56  sudo apt install curl
+   57  ./service-status.sh sedes
+   58  cd 
+   59  ls
+   60  sudo ./eset_nod32av_64bit_es_la.linux 
+   61  sudo apt-get install libc6-i386
+   62  sudo ./eset_nod32av_64bit_es_la.linux 
+   63  ssh -l usuario 10.20.23.66
+   64  nano /etc/apt/sources.list
+   65  ping 10.20.23.1
+   66  ip addr
+   67  traceroute
+   68  sudo apt install inetutils-traceroute
+   69  traceroute 10.20.23.1
+   70  cd Descargas/
+   71  ls
+   72  sudo dpkg -i microsoft-edge-stable_106.0.1370.47-1_amd64.deb 
+   73  sudo systemctl edit aziot-edged
+   74  sudo reboot
+   75  sudo apt update
+   76  sudo apt upgrade
+   77  ssh -l usuario 10.20.23.66
+   78  ls
+   79  cd ls /media/
+   80  ls /media/
+   81  sudo fdisk -l
+   82  sudo fsck /dev/sdb3 
+   83  sudo reboot
+   84  aptitude search virtuabox
+   85  aptitude search vbox
+   86  exit
+   87  ls
+   88  sudo dpkg -i virtualbox-7.0_7.0.2-154219~Ubuntu~jammy_amd64.deb 
+   89  sudo apt update
+   90  ls  /etc/apt/sources.list.c
+   91  ls  /etc/apt/sources.list.d/
+   92  nano  /etc/apt/sources.list.d/microsoft-edge.list 
+   93  sudo nano  /etc/apt/sources.list.d/microsoft-edge.list 
+   94  sudo apt update
+   95  sudo apt dist-upgrade
+   96  /sbin/vboxconfig
+   97  sudo /sbin/vboxconfig
+   98  passwd
+   99  ls
+  100  ls 
+  101  ls /home/corpoelec/Imágenes/
+  102  ls /root/
+  103  sudo ls /root/
+  104  history
+  105  sudo history
+  106  nano
+  107  nano armando
+  108  nano archivo
+  109  apt cache search
+  110  apt cache-search
+  111  apt cache-search jii
+  112  apt search jii
+  113  apt 
+  114  apt search pdf | more
+  115  grep archivo pdf 
+  116  apt search pdf | grep pdf
+  117  apt search pdf 
+  118  apt search pdf | grep zpdf
+  119  apt search pdf | xpdf
+  120  aptitude search pdf | grep xpdf
+  121  aptitude search java
+  122  aptitude search pdf | grep java
+  123  man grep
+  124  cat armando
+  125  nano armando
+  126  cat armando
+  127  nano armando
+  128  cat armando
+  129  cat armando | grep carro
+  130  cat armando | grep Caracas
+  131  nano armando
+  132  nano /etc/apt/sources.list
+  133  sudo nano /etc/apt/sources.list
+  134  apt search xpdf
+  135  apt install xpdf
+  136  sudo apt install xpdf
+  137  apt update
+  138  sudo apt update
+  139  sudo apt list --upgradable
+  140  sudo apt upgrate
+  141  sudo apt upgrade
+  142  reboot
+  143  ping 10.20.23.249
+  144  ping 10.20.23.18
+  145  ping 10.20.23.249
+  146  traceroute 10.20.23.249
+  147  traceroute 10.18.32.49
+  148  ip addr
+  149  sudo ifconfig
+  150  su -
+  151  sudo ifconfig
+  152  traceroute 10.18.32.49
+  153  ping 10.18.32.249
+  154  ping 10.18.32.49
+  155  ifconfig
+  156  ip
+  157  ip 10.18.32.49
+  158  ping 10.18.32.49
+  159  ip addr
+  160  ip 10.18.32.49
+  161  traceroute 10.20.23.234
+  162  traceroute 10.18.32.49
+  163  ip
+  164  ip -d[etails]
+  165  ip -help
+  166  ip help
+  167  ip link
+  168  ip maddress
+  169  clean
+  170  clear
+  171  lsusb 
+  172  lsusb -a
+  173  lsusb -D
+  174  lsusb -v
+  175  lsusb -a
+  176  lsusb 
+  177  lsusb -s
+  178  lsusb -s 002:007
+  179  lsusb 
+  180  ls  /etc/apcupsd/
+  181  nano  /etc/apcupsd/apcupsd.conf 
+  182  sudo nano  /etc/apcupsd/apcupsd.conf 
+  183  apucsd
+  184  apcus
+  185  apctest
+  186  sudo nano  /etc/apcupsd/apcupsd.conf 
+  187  apctest
+  188  apcupsd 
+  189  apcupsd -h
+  190  import -windows root /tmp/captura.png
+  191  sudo apt install imagemagick-6.q16 
+  192  import -windows root /tmp/captura.png
+  193  sudo apt install graphicsmagick-imagemagick-compat
+  194  import -windows root /tmp/captura.png
+  195  exit
+  196  nano /usr/local/bin/hola.sh
+  197  sudo nano /usr/local/bin/hola.sh
+  198  sudo o /usr/local/bin/hola.sh
+  199  sudo chmod +x /usr/local/bin/hola.sh
+  200  hola.sh 
+  201  ip addr
+  202  exit
+  203  date +"%Y_%m_%d_%I_%M_%p
+  204  date
+  205  exit
+  206  ssh -l corpoelec 10.20.23.234
+  207  ssh -l corpoelec 10.20.23.249
+  208  exit
+  209  ssh -l usuario 10.20.23.66
+  210  ssh -X -l usuario 10.20.23.66
+  211  ssh -X -l usuario -P 12345678 10.20.23.66
+  212  ssh -X -l usuario  10.20.23.66
+  213  exit
+  214  pwd
+  215  cd Escritorio/
+  216  pwd
+  217  cd..
+  218  cd ..
+  219  pwd
+  220  cd /etc
+  221  pwd
+  222  su -
+  223  C0rp03l3c.
+  224  su -
+  225  su - 
+  226  cd Escritorio/
+  227  nano nota.txt
+  228  su -
+  229  exit
+  230  mkdir pasante
+  231  clear
+  232  cd pasante
+  233  echo "# Pasantia2" >> README.md
+  234  git init
+  235  sudo apt install git
+  236  git init
+  237  git add README.md
+  238  git add *
+  239  git commit -m "agregue todos mis archivos el 05/12/22"
+  240  git branch -M main
+  241  git remote add origin https://github.com/Miper02/Pasantia2.git
+  242  git push -u origin main
+  243  git config --global
+  244  echo "# Pasantia2" >> README.md
+  245  git init
+  246  git add README.md
+  247  git commit -m "agregue todos mis archivos el 05/12/22"
+  248  git config --global user.email "perdomomiguel02@gmail.com"
+  249  git config --global user.name "Migper02"
+  250  git branch -M main
+  251  git remote add origin https://github.com/Miper02/Pasantia2.git
+  252  git push -u origin main
+  253  git push -u origin master
+  254  git add .
+  255  git push -u origin master
+  256  git init
+  257  git remote add origin https://github.com/Miper02/Pasantia2.git
+  258  git branch -M main
+  259  git add .
+  260  git commit -n "agregue todos mis archivos el 05/12/22"
+  261  git checkout -b master
+  262  git push -u origin master
+  263  git imit
+  264  git init
+  265  git remote add origin https://github.com/Miper02/Pasantia2.git
+  266  git branch -M main
+  267  git add .
+  268  git commit -m "agregue todos mis archivos"
+  269  git push -u origin main
+  270  gpg -- full-generate-key
+  271  1
+  272  gpg -- full-generate-key
+  273  gpg --full-generate-key
+  274  git push -u origin main
+  275  history > historial.txt
